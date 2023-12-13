@@ -5,7 +5,8 @@
 Project 1: This project changes images to have different filters.
 @author: Julia Stein
 """
-
+#     to be able to use this code, you can download any photo
+#     you would like to apply filters onto and name it 'elon_image.'
 
 import math
 import random
@@ -67,6 +68,9 @@ def my_filter(red, green, blue, x, y, width, height):
 """ Write no new code below here """
 """ Here be dragons """
 """ Don't Change this code """
+
+#     to be able to use this code, you can download any photo
+#     you would like to apply filters onto and name it 'elon_image.'
 if __name__ == '__main__':
     import elon_image
     elon_image.main(default_image_name)
