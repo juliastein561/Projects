@@ -5,8 +5,8 @@
 Project 1: This project changes images to have different filters.
 @author: Julia Stein
 """
-#     to be able to use this code, you can download any photo
-#     you would like to apply filters onto and name it 'elon_image.'
+#     To be able to use this code, you can download any image
+#     you can set default_image_name to the downloaded image.
 
 import math
 import random
