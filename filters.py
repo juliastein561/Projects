@@ -64,13 +64,8 @@ def my_filter(red, green, blue, x, y, width, height):
         blue = 255
     return red, green, blue
 
-
 """ Write no new code below here """
-
-
 """ Here be dragons """
-
-
 """ Don't Change this code """
 if __name__ == '__main__':
     import elon_image
