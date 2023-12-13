@@ -35,14 +35,11 @@ def take_turn():
                 break
     return points
 
-
 """
 function: play_one_turn_pig()
 - This function lets a player play a very short Pig game, which
   ends after exactly 1 turn.
 """
-
-
 def play_one_turn_pig():
     print('1-Turn Pig Time!')
     score = take_turn()
@@ -53,8 +50,6 @@ def play_one_turn_pig():
 function: play_solitaire_pig()
 This function lets a player play a solitaire Pig game.
 """
-
-
 def play_solitaire_pig():
     print('Solitaire Pig Time!')
     target_score = int(input("What is your target score?: "))
@@ -72,20 +67,15 @@ def play_solitaire_pig():
             print("🃏You gave up on solitaire pig.🃏")
             break
 
-
 """
 function: play_heads_up_pig()
 This function lets 2 players play a heads-up Pig game.
-
 This should proceed the same way as solitaire except alternating
 between player 1 and player 2.  Again, don't allow negative target
 scores. If player 1 exceeds the target score, then player 2 gets 
 one more turn before the game ends.  If player 2 exceeds the target 
 score, then the game ends right away.
-
 """
-
-
 def play_heads_up_pig():
     print('Heads-up Pig Time!')
     i = 1
@@ -126,7 +116,6 @@ def play_heads_up_pig():
 ''' Here be dragons '''
 ''' Don't change this '''
 
-
 def start():
     games = {
         't': ('1-Turn Pig', play_one_turn_pig),
@@ -141,7 +130,6 @@ def start():
         games[choice][1]()
     else:
         print('Sorry, that is not a game choice')
-
 
 if __name__ == '__main__':
     start()
