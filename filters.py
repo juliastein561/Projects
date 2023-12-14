@@ -6,7 +6,7 @@ Project 1: This project changes images to have different filters.
 @author: Julia Stein
 """
 #     To be able to use this code, you can download any image
-#     you can set default_image_name to the downloaded image.
+#     you can set default_image_name to the downloaded image name.
 
 import math
 import random
